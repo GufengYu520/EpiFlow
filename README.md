@@ -183,7 +183,7 @@ df = generate_sequences_for_all_alleles(
 
 | Checkpoint | Description |
 |------------|-------------|
-| `BA_predictor_esm2_t6_8M_UR50D.pt` | Pre-trained binding affinity predictor |
+| `BA_predictor_esm2_t6_8M_UR50D.pt` | Pre-trained binding affinity predictor ([Google Drive](https://drive.google.com/file/d/1Yz0zKPP8boi4cwoKgNlBY7RTfvMGs1Pt/view?usp=sharing)) |
 | `best_model_1.pth` | Pre-trained discrete flow matching model |
 | `best_model_2.pth` | Fine-tuned model with GRPO |
 | `esm2_t6_8M_UR50D.pt` | ESM2 base model weights |
