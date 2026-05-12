@@ -2,8 +2,6 @@
 
 Official implementation of **"EpiFlow: Preference-Aligned Discrete Flow Matching for Target-Conditioned Epitope Design"**.
 
-EpiFlow is a novel generative framework for target-conditioned epitope (peptide) design. It leverages **Discrete Flow Matching** for sequence generation and aligns the model with binding preferences via **Group Relative Policy Optimization (GRPO)** to produce peptides with high binding affinity and stability for specific MHC alleles.
-
 ## Overview
 
 EpiFlow addresses the challenge of designing peptides that bind specifically to given MHC alleles. The framework consists of two main stages:
@@ -71,8 +69,6 @@ import esm
 model, alphabet = esm.pretrained.esm2_t6_8M_UR50D()
 batch_converter = alphabet.get_batch_converter()
 ```
-
----
 
 ## Usage
 
